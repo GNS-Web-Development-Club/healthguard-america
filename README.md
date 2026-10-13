@@ -17,3 +17,7 @@ A healthcare transparency platform with five integrated modules for public healt
 - Bootstrap 5 + custom CSS design system
 - Leaflet.js for interactive maps
 - Chart.js for data visualization
+
+## Authors
+
+Bryan Cheng
