@@ -90,7 +90,8 @@
      Stat Counter — Animate numbers on reveal
      ============================================ */
   function initCountUp() {
-    if (prefersReducedMotion) return;
+    // Figures are printed as-is; no count-up animation.
+    return;
 
     var observer = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
